@@ -9,6 +9,13 @@
 Read more about the Macbook Pro that I have [here](https://everymac.com/systems/apple/macbook_pro/macbook-pro-silicon-faq/)
 
 
+## Setup Dev Folder
+I like to have my projects to be easily accessible. I have a folder named `dev` at the root of my file system.
+
+```
+mkdir ~/dev
+```
+
 ## Homebrew
 
 [Homebrew](https://brew.sh/) is a tool that will allow us to install different tools and apps using the command line.
@@ -80,10 +87,17 @@ brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 ```
 
+
+
 ## Productivity
 
 ## Other of my Daily Applications
 
+### Fun Formulae
+Just like CJ from the CodeGarden, I like to make my development experience fun and have a few formulae that makes me a happy developer. 😃
+```
+brew install fortune cowsay
+```
 ## OSX Settings
 
 
