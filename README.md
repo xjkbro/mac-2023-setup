@@ -35,7 +35,7 @@ There are a ton of great features and options that iTerm2 has to offer to custom
 #### iTerm2 Settings
 Hit `CMD + ,` to go to iTerm2 settings: 
 - General
-    -Window
+    - Window
         - unselect "Native full screen windows"
 - Appearance
     - Windows
@@ -53,10 +53,32 @@ Hit `CMD + ,` to go to iTerm2 settings:
             - Split Panes: Reuse previous session's directory
     - Text
         Font: Hack Nerd Font ([See Below](#oh-my-zsh))
-#### OH MY ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 ### Shell
+The shell I went with is built into OSX Monterey, `zsh`. OSX used to ship with `bash` but due to licensing and complications, Apple could not ship out this new version of OSX with `bash`. Read more about it [here](#). 
+
+That being said, with zsh as out shell of choice, we will be installing `Oh My Zsh`. 
+#### Oh My Zsh
+Oh My Zsh will give use more customization to our terminal and shell with plugins, themes, etc. Install Oh My Zsh with this command:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Keep in mind. This command will be needed to reload the shell. This will only be necessary when any changes to the `.zshrc` have been made.
+```
+source ~/.zshrc
+```
+
+I will be installing Starships as my zsh theme and  make it the default theme:
+```
+brew install starship
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+```
+I will also be installing Hack Nerd Font as my iTerm2, VS Code, and Sublime Text Font. 
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
 
 ## Productivity
 
