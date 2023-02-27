@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+toilet jkdelara.com
 
 # fun tuxedo penguin with fortune
 alias happy="fortune | cowsay -f tux"

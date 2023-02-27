@@ -96,7 +96,7 @@ brew install --cask font-hack-nerd-font
 ### Fun Formulae
 Just like CJ from the CodeGarden, I like to make my development experience fun and have a few formulae that makes me a happy developer. 😃
 ```
-brew install fortune cowsay
+brew install fortune cowsay aafire cmatrix toilet
 ```
 ## OSX Settings
 
