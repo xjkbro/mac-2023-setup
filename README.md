@@ -87,13 +87,21 @@ brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 ```
 
+## Casks
 
+```
+brew install --cask 1password google-chrome discord visual-studio-code docker rectangle slack vlc keka figma imageoptim alfred alt-tab sublime-text postman
+```
+## Formulae
+```
+brew install wget exa git nvm pnpm graphicsmagick fortune cowsay aafire cmatrix toilet
+```
 
-## Productivity
+### Productivity
 
-## Other of my Daily Applications
+### Other of my Daily Applications
 
-### Fun Formulae
+### Fun Command Programs
 Just like CJ from the CodeGarden, I like to make my development experience fun and have a few formulae that makes me a happy developer. 😃
 ```
 brew install fortune cowsay aafire cmatrix toilet
