@@ -88,25 +88,56 @@ brew install --cask font-hack-nerd-font
 ```
 
 ## Casks
+```
+brew install --cask 1password google-chrome discord visual-studio-code docker spotify rectangle vlc keka figma imageoptim alfred alt-tab sublime-text insomnia
 
 ```
-brew install --cask 1password google-chrome discord visual-studio-code docker rectangle slack vlc keka figma imageoptim alfred alt-tab sublime-text postman
-```
-## Formulae
-```
-brew install wget exa git nvm pnpm graphicsmagick fortune cowsay aafire cmatrix toilet
-```
-
 ### Productivity
+There are many applications that I use to improve my productivity. 
+- Alfred (Replacement to MAC OSX Spotlight)
+- Rectangle (Window Manager)
+- Alt-Tab (Visualize applications when tabbing through applications)
+- Insomnia (API Route Testing Application / Postman also works)
+- ImageOptim (Image optimization)
 
 ### Other of my Daily Applications
+I have many other applications that I use daily that are important for my development needs.
+- Google Chrome (preferred web browser)
+- Visual Studio Code
+- Docker
+- Spotify (because it's better than Apple Music)
 
+## Formulae
+```
+brew install wget exa git nvm yarn graphicsmagick fortune cowsay aafire cmatrix toilet
+```
+- exa (replaces the ls command)
+- wget
+- git
+- nvm
+- yarn
 ### Fun Command Programs
 Just like CJ from the CodeGarden, I like to make my development experience fun and have a few formulae that makes me a happy developer. 😃
 ```
-brew install fortune cowsay aafire cmatrix toilet
+brew install fortune cowsay cmatrix toilet
 ```
+
 ## OSX Settings
 
+#### Keybindings
+
+`CMD + [Space]` Disabled for Spotlight and used for Alfred
+`OPTION + [Space]` LaunchPad
+`CMD + Tab` Replace default AltTab with Alt+Tab 
+### .zshrc configuration
+Feel free to look at the configuration included in this repository.
+
+#### Personal Aliases
+```
+alias happy="fortune | cowsay -f tux"
+alias ip="ipconfig getifaddr en0"
+alias c="code ."
+alias dev="cd ~ && cd dev && pwd" 
+```
 
 ## VS Code Settings

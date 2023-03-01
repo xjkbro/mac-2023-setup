@@ -18,13 +18,15 @@ brew install --cask font-hack-nerd-font
 # install all cask
 brew install --cask 
 1password google-chrome discord visual-studio-code 
-docker rectangle slack vlc keka figma imageoptim 
-alfred alt-tab sublime-text postman
+docker rectangle vlc keka figma imageoptim 
+alfred alt-tab sublime-text insomnia
 
 # kap
 
 # install formulae
-brew install wget exa git nvm pnpm graphicsmagick 
+brew install wget exa git nvm yarn graphicsmagick 
 
 # install fun commands
-brew install fortune cowsay aafire cmatrix toilet
+brew install fortune cowsay cmatrix toilet
+
+
